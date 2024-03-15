@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    text-align: center;
+    color:rgb(114, 114, 113);
+    font-size: 20px;
+}
+.container{
+    margin-top:20px;
+    height: 600px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.container ul{
+    /* border: 1px solid yellow; */
+    transition: 0.6s;
+}
+.container li{
+    height:40px;
+    line-height: 40px;
+    transition: 0.6s;
+}
+.container li.active{
+    color: #fff;
+    
+    transform: scale(1.2);
+}
