@@ -1,0 +1,40 @@
+canvas {
+  background-color: pink;
+  border: 1px solid black;
+}
+.test {
+  width: 300px;
+  height: 300px;
+  background-color: aquamarine;
+  margin-top: 50px;
+  animation: 3s ease-in 1s infinite reverse both running run;
+}
+@keyframes run {
+  0% {
+    transform: translate(100px, 100px);
+  }
+  50% {
+    transform: translate(50px, 50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.container {
+  width: 100%;
+  height: auto;
+  background-color: pink;
+  display: flex;
+  gap: 16px;
+  min-height: 240px;
+}
+.item-container {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+.item {
+  width: 100%;
+  background-color: aquamarine;
+  aspect-ratio: 1.5;
+}
